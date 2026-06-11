@@ -1,5 +1,5 @@
 {
-    "name": "magentron/eloquent-model-generator",
+    "name": "caseraph/eloquent-model-generator",
     "description": "Eloquent Model Generator (forked from krlove/eloquent-model-generator",
     "license": "MIT",
     "autoload": {
@@ -13,22 +13,23 @@
         }
     },
     "replace": {
-		"krlove/eloquent-model-generator": "<=2.0.2"
+		"krlove/eloquent-model-generator": "<=2.0.2",
+        "magentron/eloquent-model-generator": "*"
 	},
     "require": {
         "php": "^8.0",
-        "illuminate/database": "^12.0",
-        "illuminate/support": "^12.0",
-        "illuminate/config": "^12.0",
-        "illuminate/console": "^12.0",
-        "doctrine/dbal": "^3.0",
+        "illuminate/database": "^12.0|^13.0",
+        "illuminate/support": "^12.0|^13.0",
+        "illuminate/config": "^12.0|^13.0",
+        "illuminate/console": "^12.0|^13.0",
+        "doctrine/dbal": "^3.0|^4.0",
         "krlove/code-generator": "^1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.70",
         "larastan/larastan": "^3.1",
         "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "^12",
+        "phpunit/phpunit": "^12|^13",
         "symfony/var-dumper": "^7.2",
         "vimeo/psalm": "~6.4.0"
     },

@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+2026-06-11, v3.0.0
+-----------------
+* Add Laravel 13 support
+
 2025-01-28, v2.0.3
 -----------------
 * Do not connect to database in command constructors 
